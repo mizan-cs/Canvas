@@ -24,8 +24,8 @@ class CreateQuestionsTable extends Migration
             $table->foreign('user_id')->references('id')->on('users');
 
             //Category Foreign Key Setup
-            $table->integer('categori_id')->unsigned();
-            $table->foreign('categori_id')->references('id')->on('categories');
+            $table->integer('categorie_id')->unsigned();
+            $table->foreign('categorie_id')->references('id')->on('categories');
 
             //Tag Foreign Key Setup
             $table->integer('tag1_id')->unsigned();
