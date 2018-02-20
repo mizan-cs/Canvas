@@ -9,12 +9,20 @@
 
 	<title>Canvas</title>
 
+
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/album.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/form.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://getbootstrap.com/docs/4.0/examples/album/album.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-	<link href="css/blog.css" rel="stylesheet">
+	<!-- <link href="css/blog.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootsrap.min.css">
-	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/form.css"> -->
 
 
 	<style rel="stylesheet">

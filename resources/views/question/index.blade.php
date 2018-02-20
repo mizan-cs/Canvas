@@ -20,8 +20,10 @@
 
 			@include('question.question_form')
 
+			@foreach($questions as $question)
 			@include('question.single_question')
-
+			@endforeach
+			
 
 		</div><!-- /.blog-main -->
 

@@ -4,12 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class categorie extends Model
+class Category extends Model
 {
-    public function test()
+    public function questions()
     {
-
       return $this->hasMany(question::class);
     }
-
 }

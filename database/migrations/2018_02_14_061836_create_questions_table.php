@@ -23,18 +23,9 @@ class CreateQuestionsTable extends Migration
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
 
-            //Category Foreign Key Setup
-            $table->integer('categorie_id')->unsigned();
-            $table->foreign('categorie_id')->references('id')->on('categories');
-
-            //Tag Foreign Key Setup
-            $table->integer('tag1_id')->unsigned();
-            $table->foreign('tag1_id')->references('id')->on('tags');
-            $table->integer('tag2_id')->unsigned();
-            $table->foreign('tag2_id')->references('id')->on('tags');
-            $table->integer('tag3_id')->unsigned();
-            $table->foreign('tag3_id')->references('id')->on('tags');
-
+            //Catagory Forgain Key setup
+            $table->integer('category_id')->unsigned();
+            $table->foreign('category_id')->references('id')->on('categories');
 
             $table->timestamps();
         });
